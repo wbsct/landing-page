@@ -2,6 +2,9 @@
 
 * {
   font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
@@ -29,6 +32,7 @@
   justify-content: space-around;
   background-color: #1f2937;
   color: #f9f9f9;
+  margin-bottom: 100px;
 }
 
 .first-hero-section {
@@ -79,8 +83,68 @@
   justify-content: center;
   align-items: center;
   gap: 15px;
+  margin-bottom: 100px;
 }
 
 h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  gap: 10px;
+}
+
+.the-quote {
+  width: 750px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.quote-author {
+  padding-left: 450px;
+}
+
+.sign-up-section {
+  background-color: #3882f6;
+  color: #f9faf8;
+  margin: 100px;
+  padding: 60px 100px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn-second {
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px 30px;
+  font-weight: 500;
+}
+
+.no-btn-sign-up-section {
+  font-size: 20px;
+}
+
+.no-btn-sign-up-section div:first-child {
+  font-weight: 500;
+}
+
+.footer {
+  padding: 50px;
+  color: #f9faf8;
+  background-color: #1f2937;
   text-align: center;
 }
